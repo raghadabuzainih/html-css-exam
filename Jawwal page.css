@@ -1,0 +1,159 @@
+body{
+    margin-left: 50px;
+}
+
+.first{
+    display: flex;
+    gap: 2rem;
+}
+
+#jaw-logo{
+    width: 40px;
+}
+
+nav{
+    background-color: green;
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+    height: 4rem;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+nav a:hover{
+    color: blue;
+    border-bottom-color: blue;
+}
+
+
+#banner{
+    border-radius: 20px;
+    margin-left: 6em;
+    margin-top: 1em;
+    width: 70em;
+}
+
+.two-sec{
+    display: flex;
+    gap: 1em;
+}
+
+
+#sec1{
+    width: 25%;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    height: 220px;
+    margin-top: 2.4em;
+    position: relative;
+}
+
+.sec1-div{
+    margin-top: .5em;
+    width: 366px;
+    border: 1px solid black;
+    height: 210px;
+    position: relative;
+}
+
+
+#fi-spa{
+    position: absolute;
+    top: -10px;
+    background-color: green;
+    right: 9.1em;
+}
+
+.login-f{
+    text-align: center;
+}
+
+
+.login-f input, button{
+    padding: 7px;
+    margin-bottom: 1em;
+    border-radius: 7px;
+}
+
+
+#pass{
+    margin-left: 2.1em;
+}
+
+#sec2{
+    width: 30%;
+    position: absolute;
+    top: 25.7em;
+    left: 29em;
+}
+
+#sec3{
+    width: 30%;
+    position: absolute;
+    top: 25.7em;
+    left: 59em;
+}
+
+#sec2 h2, #sec3 h2{
+    background-color: grey;
+}
+
+#sec2 img, #sec3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 22.3em;
+}
+
+
+ul{
+    margin-left: 6.8em;
+    position: absolute;
+    top: 6em;
+}
+
+ul span{
+    margin-left: -1em;
+    font-weight: bold;
+}
+
+
+#sec4{
+    width: 600px;
+    position: absolute;
+    top: 41em;
+    left: 50.5em;
+}
+
+.same img{
+    width: 100px;
+    height: 100px;
+}
+
+.same{
+    display: flex;
+    text-align: center;
+}
+
+.same-img{
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 17em;
+    padding: 2px;
+}
